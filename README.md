@@ -91,8 +91,10 @@ In order to determine the characteristic features of solar flares, we will requi
 
 - The light curve is composed of several flux shifts. Flares are characterised by the following characteristics:
 <br>
+
   1. The flare begins at a flux minimum time ts, where a preflare background fBG is generated from the median flux of time interval [ts − ∆tBG,ts]. In this case, we used a time interval of ∆tBG = 300 seconds to calculate background flux, which translates to nbin = 300/60 = 5 bins. Now, here a problem arises that there may be the case when the particular flare is already preceded by some flares especially in case when solar activity is high. So, here, taking median will give the median of fluxes of preceding flare instead of background, so to solve this issue, we put a condition that if the median of fluxes is more than five times of preceding background flux, then we take background flux of this flare as thatof previous background flux (without updating the background of this flare).
 <br>
+
   2. The flare ends at the first subsequent flux minimum time te, when the flux drops below the level fBG, now here too, in case when some other flare is happening when a flare is ending, then the flux level will not touch the background, so, in this case we extrapolate the decay of this flare and rise of subsequent flare to find the ending and rising time of this and the next flare respectively.
    <br>
 
@@ -100,8 +102,7 @@ In order to determine the characteristic features of solar flares, we will requi
 
   4. The background-subtracted peak flux is F = fp − fBG.
    <br>
-
-For the duration flare event, we extrapolate the curve at the beginning and at the end of a flare to the fBG level in case it is preceded or followed by some other flare. Now, as we know that the observed burst has a fast rise and slow decay shape. The fast rise follows the linear form while the slow decay shape follows the power-law function (f (x) = at−k). We have fitted the function according to the given data and found out the parameters of these two forms for every flare and then we found out the duration of rising and decay times by extrapolating the curves to fBG level.
+   <p>For the duration flare event, we extrapolate the curve at the beginning and at the end of a flare to the fBG level in case it is preceded or followed by some other flare. Now, as we know that the observed burst has a fast rise and slow decay shape. The fast rise follows the linear form while the slow decay shape follows the power-law function (f (x) = at−k). We have fitted the function according to the given data and found out the parameters of these two forms for every flare and then we found out the duration of rising and decay times by extrapolating the curves to fBG level.</p>
 
 <div align="center">
 <img src= "https://user-images.githubusercontent.com/78396437/178453294-33a63164-8200-4e82-a166-cd57ca6340b4.jpeg" alt="Drone" align="center" width="490">
