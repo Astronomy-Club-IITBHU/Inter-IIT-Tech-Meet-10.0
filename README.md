@@ -101,7 +101,7 @@ In order to determine the characteristic features of solar flares, we will requi
   4. The background-subtracted peak flux is F = fp − fBG.
    <br>
 
-     For the duration flare event, we extrapolate the curve at the beginning and at the end of a flare to the fBG level in case it is preceded or followed by some other flare. Now, as we know that the observed burst has a fast rise and slow decay shape. The fast rise follows the linear form while the slow decay shape follows the power-law function (f (x) = at−k). We have fitted the function according to the given data and found out the parameters of these two forms for every flare and then we found out the duration of rising and decay times by extrapolating the curves to fBG level.
+For the duration flare event, we extrapolate the curve at the beginning and at the end of a flare to the fBG level in case it is preceded or followed by some other flare. Now, as we know that the observed burst has a fast rise and slow decay shape. The fast rise follows the linear form while the slow decay shape follows the power-law function (f (x) = at−k). We have fitted the function according to the given data and found out the parameters of these two forms for every flare and then we found out the duration of rising and decay times by extrapolating the curves to fBG level.
 
 <div align="center">
 <img src= "https://user-images.githubusercontent.com/78396437/178453294-33a63164-8200-4e82-a166-cd57ca6340b4.jpeg" alt="Drone" align="center" width="490">
